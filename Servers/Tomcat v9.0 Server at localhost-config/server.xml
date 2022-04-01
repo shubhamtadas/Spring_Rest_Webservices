@@ -152,7 +152,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="SpringRestfulWebServicesWithJSONExample" path="/SpringRestfulWebServicesWithJSONExample" reloadable="true" source="org.eclipse.jst.j2ee.server:SpringRestfulWebServicesWithJSONExample"/><Context docBase="mavenWebApp1" path="/mavenWebApp1" reloadable="true" source="org.eclipse.jst.j2ee.server:mavenWebApp1"/><Context docBase="mavenWebApp" path="/mavenWebApp" reloadable="true" source="org.eclipse.jst.j2ee.server:mavenWebApp"/></Host>
+      <Context docBase="SpringRestfulWebServicesWithJSONExample" path="/SpringRestfulWebServicesWithJSONExample" reloadable="true" source="org.eclipse.jst.j2ee.server:SpringRestfulWebServicesWithJSONExample"/><Context docBase="mavenWebApp1" path="/mavenWebApp1" reloadable="true" source="org.eclipse.jst.j2ee.server:mavenWebApp1"/><Context docBase="mavenWebApp" path="/mavenWebApp" reloadable="true" source="org.eclipse.jst.j2ee.server:mavenWebApp"/><Context docBase="EmployeeManagement" path="/EmployeeManagement" reloadable="true" source="org.eclipse.jst.j2ee.server:EmployeeManagement"/></Host>
     </Engine>
   </Service>
 </Server>
